@@ -1,14 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  async rewrites() {
-    return [
-      {
-        source: '/.well-known/assetlinks.json',
-        destination: '/api/.well-known/assetlinks',
-      },
-    ];
-  },
+  /* config options here */
 };
 
 export default nextConfig;
